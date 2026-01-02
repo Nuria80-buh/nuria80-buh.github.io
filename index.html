@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Частный бухгалтер в Астане</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #1e1a16;
+            color: #f5e6c8;
+        }
+
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(
+                rgba(30,26,22,0.85),
+                rgba(30,26,22,0.85)
+            ),
+            url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 46px;
+            color: #f3c77b;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #f3c77b;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 15px 35px;
+            background: linear-gradient(135deg, #f3c77b, #c79b4b);
+            color: #1e1a16;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+
+        .section {
+            padding: 70px 20px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #2a241d;
+            padding: 25px;
+            border-radius: 18px;
+            border: 1px solid #3a3228;
+        }
+
+        .price {
+            font-size: 26px;
+            color: #f3c77b;
+        }
+
+        .footer {
+            background: #16120f;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 15px;
+            color: #c7b89a;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 14px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 14px 30px;
+            background: linear-gradient(135deg, #f3c77b, #c79b4b);
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="container">
+        <h1>Частный бухгалтер в Астане</h1>
+        <p>Опыт более 10 лет. ИП и ТОО. Налоги, отчетность, зарплата, бизнес-планы и финансовые модели.</p>
+        <a href="#form" class="btn">Оставить заявку</a>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Обо мне</h2>
+        <p>
+            Я — частный бухгалтер в г. Астане. Работаю лично, без менеджеров.
+            Беру на себя полную ответственность за вашу бухгалтерию,
+            соблюдение сроков и конфиденциальность.
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Услуги</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Бухгалтерский учет ИП и ТОО</h3>
+                <p>Полное сопровождение, учет, первичная документация.</p>
+            </div>
+            <div class="card">
+                <h3>Налоговая отчетность</h3>
+                <p>Сдача отчетов, оптимизация налогов.</p>
+            </div>
+            <div class="card">
+                <h3>Зарплата и кадры</h3>
+                <p>Расчет зарплаты, кадровое сопровождение.</p>
+            </div>
+            <div class="card">
+                <h3>Бизнес-планы и финмодели</h3>
+                <p>Планирование бюджета, финансовые модели для бизнеса.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Тарифы</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Старт</h3>
+                <p class="price">от 40 000 ₸ / мес</p>
+                <p>ИП, базовое сопровождение</p>
+            </div>
+            <div class="card">
+                <h3>Бизнес</h3>
+                <p class="price">от 60 000 ₸ / мес</p>
+                <p>ИП и ТОО, расширенный учет</p>
+            </div>
+            <div class="card">
+                <h3>Премиум</h3>
+                <p class="price">от 100 000 ₸ / мес</p>
+                <p>Полный финансовый контроль</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="form">
+    <div class="container">
+        <h2>Бесплатная консультация</h2>
+        <form>
+            <input type="text" placeholder="Ваше имя">
+            <input type="tel" placeholder="Телефон">
+            <textarea rows="4" placeholder="Кратко опишите задачу"></textarea>
+            <button type="submit">Отправить заявку</button>
+        </form>
+        <p style="margin-top:15px;">📞 +7 708 824 57 74</p>
+    </div>
+</section>
+
+<footer class="footer">
+    © 2026 Частный бухгалтер в Астане
+</footer>
+
+</body>
+</html>
+
